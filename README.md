@@ -8,10 +8,29 @@ Tech: JavaScript (ES6), Python, Django (as API), HTML, CSS.
 
 Requirements: https://cs50.harvard.edu/web/projects/3/mail/
 
-# How to run?
+ Setup Instructions:
+--------------------------------------------------
+0. Download code/ Clone repository
+   ```
+   git clone https://github.com/Erbakan360/CS50W-Mail-Project-3.git
+   ```
+1. Change directory to the wiki
+   ```
+   cd mail
+   ```
 
-In your terminal, cd into the mail directory.
+2. Install dependencies:
+   ```
+   pip install django markdown2
+   ```
 
-Run python manage.py makemigrations mail to make migrations for the mail app.
-
-Run python manage.py migrate to apply migrations to your database.
+3. Run database migrations:
+   ```
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+  
+4. Start the development server]
+    ```
+    python manage.py runserver
+    ```****
