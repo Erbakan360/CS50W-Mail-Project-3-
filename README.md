@@ -30,7 +30,7 @@ Requirements: https://cs50.harvard.edu/web/projects/3/mail/
    python manage.py migrate
    ```
   
-4. Start the development server]
+4. Start the development server:
     ```
     python manage.py runserver
     ```
